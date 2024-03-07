@@ -45,7 +45,7 @@ Once Main.bat is executed, perform HTTP requests to view the two indicators requ
 
 ### Explanation
 
-In this solution, the goal is to stream the data by making requests to the URLs where the data is located. Requests retrieve 'chunks' of data, avoiding the need to download large volumes of data into files.
+In this solution, the goal is to stream the data by making requests to the URLs where the data is located. Requests retrieve 'chunks' of data, avoiding the need to download large volumes of data into files. For this, I use Python and the Requests library.
 
 ### How to Run It
 
@@ -79,16 +79,22 @@ The files import the following libraries:
 
 ### Women in Government
 
-For the "Women in Government" indicator, the CES (Current Employment Statistics) code for the government sector was extracted. The series ID is CES9000000010, where '90' corresponds to the super sector code for government, and '10' corresponds to women employees.
+For the "Women in Government" indicator, the CES (Current Employment Statistics) code for the government sector was extracted. After interpreting the codes and exploring the database, we identified that the series ID is CES9000000010. Here, '90' corresponds to the super sector code for government, and '10' corresponds to women employees.
 
 ### Ratio Production/Supervisory Employees
 
-For the "Ratio Production/Supervisory Employees" indicator, the CES for total private was considered. The required series IDs are:
+For the "Ratio Production/Supervisory Employees" indicator, I considered the CES for total private. The required series IDs are:
 
-- CES0500000006 (Production and nonsupervisory employees, thousands, total private, seasonally adjusted): '05' corresponds to the sector, supersector all private, and '05' to production employees. There are 22,699 rows for this series.
+- CES0500000006 (Production and nonsupervisory employees, thousands, total private, seasonally adjusted): '05' corresponds to the sector, supersector all private, and '05' to production employees.
 - CES0000000001 (All employees, thousands, total nonfarm, seasonally adjusted): '00' corresponds to the supersector total nonfarm, and '01' to all employees.
 
-The ratio is calculated between all non-farm employees and production employees in all private. The indicator can be discussed with team members to correctly identify what each category represents.
+Note: The ratio will be calculated between all non-farm employees and production employees in all private. Using the information from the provided table, we identified the supersectors belonging to the category of all private. All supersectors except government and service providing belong to all private. Taking the production of all private is equivalent to taking the production of all these sectors. We do not consider the production of the missing supersectors (government, etc.), and then we assume that all nonfarm employees are all employees of all categories, making this the total ratio:
+
+FOTO
+
+FORMULA
+
+However, this indicator can be discussed with team members to correctly identify what each category represents.
 
 ## Conclusion
 
