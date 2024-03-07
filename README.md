@@ -90,7 +90,7 @@ For the "Ratio Production/Supervisory Employees" indicator, I considered the CES
 
 Note: The ratio will be calculated between all non-farm employees and production employees in all private. Using the information from the provided table, we identified the supersectors belonging to the category of all private. All supersectors except government and service providing belong to all private. Taking the production of all private is equivalent to taking the production of all these sectors. We do not consider the production of the missing supersectors (government, etc.), and then we assume that all nonfarm employees are all employees of all categories, making this the total ratio: \( \text{ratio} = \frac{\text{production all private}}{\text{all employees nonfarm} - \text{production all private}} \).
 
-![Example Image](Challenge/Tabla Private Sector.png)
+![Tabla Private Sector](https://github.com/npelella/Challenge/assets/82551055/3c5afe72-bccf-49b2-81a9-59f4b9b15cea)
 
 However, this indicator can be discussed with team members to correctly identify what each category represents.
 
