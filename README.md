@@ -12,7 +12,7 @@ Both Solution 1 and Solution 2 were developed using the default server and datab
 - Port: 5432
 - Username: postgres
 
-Additionally, postgREST must be installed, and the repository contains the respective installers for postgREST at the provided addresses.
+Additionally, postgREST must be installed. The repository contains the respective installers for postgREST at the provided addresses.
 
 **IMPORTANT:** To run any of the solutions, do not move any file from its location. Just download folders Solution 1, Solution 2, located wherever you want, and run the corresponding files.
 
