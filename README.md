@@ -96,4 +96,4 @@ The results reveal significant growth in women's employment over the years. On t
 
 ## An Alternative Way
 
-Another alternative to solving the challenge could be to set up a server and a database in a Docker container. This approach would make it easier to run the challenge,
+Another alternative to solving the challenge could be to set up a server and a database in a Docker container. This approach would make it easier to run the challenge, as the container, along with the code, can be shared to ensure that the server and the database used for storing and processing the data are consistent.
