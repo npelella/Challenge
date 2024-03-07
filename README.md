@@ -88,11 +88,9 @@ For the "Ratio Production/Supervisory Employees" indicator, I considered the CES
 - CES0500000006 (Production and nonsupervisory employees, thousands, total private, seasonally adjusted): '05' corresponds to the sector, supersector all private, and '05' to production employees.
 - CES0000000001 (All employees, thousands, total nonfarm, seasonally adjusted): '00' corresponds to the supersector total nonfarm, and '01' to all employees.
 
-Note: The ratio will be calculated between all non-farm employees and production employees in all private. Using the information from the provided table, we identified the supersectors belonging to the category of all private. All supersectors except government and service providing belong to all private. Taking the production of all private is equivalent to taking the production of all these sectors. We do not consider the production of the missing supersectors (government, etc.), and then we assume that all nonfarm employees are all employees of all categories, making this the total ratio:
+Note: The ratio will be calculated between all non-farm employees and production employees in all private. Using the information from the provided table, we identified the supersectors belonging to the category of all private. All supersectors except government and service providing belong to all private. Taking the production of all private is equivalent to taking the production of all these sectors. We do not consider the production of the missing supersectors (government, etc.), and then we assume that all nonfarm employees are all employees of all categories, making this the total ratio: \( \text{ratio} = \frac{\text{production all private}}{\text{all employees nonfarm} - \text{production all private}} \).
 
 FOTO
-
-\[ \text{ratio} = \frac{\text{production all private}}{\text{all employees nonfarm} - \text{production all private}} \]
 
 However, this indicator can be discussed with team members to correctly identify what each category represents.
 
