@@ -92,7 +92,7 @@ Note: The ratio will be calculated between all non-farm employees and production
 
 FOTO
 
-FORMULA
+\[ \text{ratio} = \frac{\text{production all private}}{\text{all employees nonfarm} - \text{production all private}} \]
 
 However, this indicator can be discussed with team members to correctly identify what each category represents.
 
