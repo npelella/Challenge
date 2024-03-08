@@ -14,7 +14,7 @@ Both Solution 1 and Solution 2 were developed using the default server and datab
 
 Additionally, postgREST must be installed. The repository contains the respective installers for postgREST at the provided addresses.
 
-**IMPORTANT:** To run any of the solutions, do not move any file from its location. Just download folders Solution 1, Solution 2, located wherever you want, and run the corresponding files. Also, DO NOT have empty spaces in the path's. 
+**IMPORTANT:** To run any of the solutions, do not move any file from its location. Just download folders Solution 1, Solution 2, located wherever you want, and run the corresponding files. Also, DO NOT have empty spaces in the path's. And Finally, if you are going to test all the solutions, it's important to close the terminal where the API is running before running another solution.
 
 ## Solution 1
 
