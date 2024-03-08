@@ -9,9 +9,9 @@ set /p PG_PASSWORD=Enter PostgreSQL password (default is 1234):
 set /p PG_HOST=Enter PostgreSQL host (default is localhost): 
 set /p PG_PORT=Enter PostgreSQL port (default is 5432): 
 set /p DB_NAME=Enter PostgreSQL database name (default is postgres): 
-set /p SQL_FILE=Enter path to SQL file (Example: if main.sql is in folder 'queries', then put up to C:\Users\NPelella\Challenge\Solution 1\Queries): 
-set /p DATA_PATH=Enter path to data file (Example: if data.txt is in folder 'txt', then put up to C:\Users\NPelella\Challenge\Solution 1\txt): 
-set /p POSTGREST_CONF=Enter path to PostgREST API configuration (Example: if challenge.conf is in folder 'conf', then put up to C:\Users\NPelella\Challenge\Solution 1\API):
+set /p SQL_FILE=Enter path to SQL file (Example: if main.sql is in folder 'queries', then put up to C:\Users\NPelella\Challenge\Solution_1\Queries): 
+set /p DATA_PATH=Enter path to data file (Example: if data.txt is in folder 'txt', then put up to C:\Users\NPelella\Challenge\Solution_1\txt): 
+set /p POSTGREST_CONF=Enter path to PostgREST API configuration (Example: if challenge.conf is in folder 'API', then put up to C:\Users\NPelella\Challenge\Solution_1\API):
 set /p CONF_FILE_NAME=Enter PostgREST configuration file name (default is challenge.conf.txt): 
 
 
